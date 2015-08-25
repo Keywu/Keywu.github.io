@@ -10,7 +10,7 @@
 
 			<ul class="[ list-ui  list-ui--small ]  mb">
             	{% for cat in site.categories %}
-    				<li><a href="{{ site.baseurl }}/categories/{{ cat[0] }}">{{ cat[0] }} ({{ cat | last | size}})</a></li>
+    				<li><a href="{{ site.baseurl }}/{{ cat[0] }}">{{ cat[0] }} ({{ cat | last | size}})</a></li>
                 {% endfor %}
 			</ul>
 
