@@ -1,13 +1,13 @@
 
-body{ margin:0px; padding:0px; background-color:#f2f2f2;}
+body{ margin:0px; padding:0px; background-color:#fff; }
 
 .promo{ padding:0px;}
 
 .page-head--masthead{ background:url(../images/bg.jpg) repeat-x center top #333;}
 
-.person-photo{ background:url(../images/person-photo.png); border-radius:133px;  width:265px; height:265px; margin:0 auto; display:block; }
+.person-photo{ background:url(../images/person-photo.png); border-radius:133px;  width:265px; height:265px; margin: auto auto; display:block; }
 
-.person-nickname { margin:0 auto; display:block; width:256px; height:80px; line-height:80px; text-align:center;}
+.person-nickname { margin:0 auto; display:block; width:256px; height:80px; line-height:80px; text-align:center; }
 
 .person-nickname h1 { color:#fff; padding-top: 20px;}
 
@@ -15,4 +15,4 @@ body{ margin:0px; padding:0px; background-color:#f2f2f2;}
 
 .image-home { width:64px; height:64px; background:url(../images/person-photo64x64.png); border-radius:4px;}
 
-.layout  layout--large { }
+.wrapper { padding-top:10px; }
