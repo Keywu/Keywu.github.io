@@ -3,6 +3,7 @@ baseurl: ""
 paginate: 8
 safe: false
 highlighter: pygments
+excerpt_separator: ""
 markdown: redcarpet
 redcarpet:
   extensions:
